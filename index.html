@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML Stuffing Example</title>
+
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <p>This is a simple example of an html stuffing attack, inspired by an article by Outflank.</p>
+  <p>This will download a simple bash script automatically with no input from the user.</p>
+  <p>From a network perspecitive, this would be purely HTML, and no additional HTTP request for a .sh file was made</p>
+  <p>This starts with a base64 encoded file.  Putting your own base64 encoded file in the javascript file will change the downloaded file</p>
+</body>
+</html>
